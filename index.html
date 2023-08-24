@@ -1,11 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <title>READ</title>
+
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        .navbar {
+            padding: none;
+        }
+
+        .video {
+            width: 950px;
+            position: relative;
+            left: 15%;
+            margin-top: 50px;
+        }
+
+        .footer {
+            background-color: #36495b67;
+            padding: 20px 0;
+            text-align: center;
+            color: #281414;
+        }
+
+        /* Estilo para os cards */
+        .card {
+            margin: 20px; /* Espaço entre os cards e a margem */
+        }
+    </style>
 </head>
+
 <body>
-    scljkcldsc
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">READ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">livros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" aria-disabled="true">termos de uso</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="pesquisar" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <section class="py-5">
+            <div class="container">
+                <h1 class="fw-light d-flex justify-content-center"> Bem Vindos!</h1>
+                <br><br>
+                <p class="lead d-flex justify-content-center">Venha encontrar os melhores livros através de nossa
+                    biblioteca
+                    virtual, Read!</p>
+                <p class="lead d-flex justify-content-center"> CONHEÇA NOSSO ESPAÇO! </p>
+            </div>
+        </section>
+    </header>
+
+    <div class="video">
+        <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/_0R3RAaX5H0?si=pGf2R5a9M0NAhQW7"></iframe>
+        </div>
+        <br>
+        <br>
+        <br>
+        <h4>SUGESTÕES DOS ALUNOS E DOCENTES</h4>
+        <br>
+    </div>
+
+    <!-- Cards alinhados lado a lado -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/GUARANI.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">O GUARANI</h5>
+                        <p class="card-text">O Guarani conta a historia de Peri, um índio forte e leal da Nação Goitacá e sua relação com a familia de dom Antonio de Mariz, um fidalgo português. Peri e o protetor de Cecilia, uma bela donzela filha de dom Antonio.</p>
+                        <a href="#" class="btn btn-primary">SOBRE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/codelimpo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">CÓDIGO LIMPO</h5>
+                        <p class="card-text"> O livro é um atalho pra você aprender as boas práticas dos grandes programadores poupando dores de cabeça e, principalmente, tempo e dinheiro.</p>
+                        <a href="#" class="btn btn-primary">SOBRE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/cury.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">O HOMEM MAIS INTELIGENTE DA HISTÓRIA</h5>
+                        <p class="card-text">O psiquiatra Marco Polo é um cientista respeitadíssimo, especialista no funcionamento da mente e autor do primeiro programa mundial de gestão da emoção.</p>
+                        <a href="#" class="btn btn-primary">SOBRE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>Horário de Funcionamento</h3>
+                    <p>Segunda a Sexta: 9:00 - 18:00</p>
+                    <p>Sábado: 10:00 - 15:00</p>
+                    <p>Domingo: Fechado</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS (se necessário) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
