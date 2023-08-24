@@ -1,0 +1,81 @@
+body {
+    background-color:rgb(254, 243, 228)
+}
+
+img {
+    width: 270px; 
+    margin-top: 150px;
+    margin-left: 200px;
+  
+  }
+
+.container {
+   display:block;
+   margin-left: 650px;
+   margin-top: -255px;
+   border-radius: 300px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+
+.search-box {
+    width: 200px;
+    margin:20px;
+    padding: 10px;
+    display: grid;
+    grid-gap: 30px; 
+    color: gray;
+    border: none;
+    border-radius: 10%;
+    
+   
+
+}
+
+.button {
+    display:block;
+    grid: 100px;
+    margin-left: 765px;
+    margin-top: 35px;
+    /* color: white; */
+    /* width: 150px; 
+    height: 500px; */
+}
+
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 12px;
+    margin-left: -15px;
+}
+
+#senha{
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    width: 260px;
+}
+
+#email {
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    width: 260px;
+}
+
+#nome {
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    width: 260px;
+
+}
+
+#enviar {
+   
+    border: 1;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+
+}
